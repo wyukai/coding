@@ -3,4 +3,4 @@ project(coding)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(coding list/reverseList.cpp)
+add_executable(coding list/findKthToTail.cpp)

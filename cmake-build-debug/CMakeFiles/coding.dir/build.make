@@ -56,27 +56,27 @@ include CMakeFiles/coding.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/coding.dir/flags.make
 
-CMakeFiles/coding.dir/list/reverseList.cpp.obj: CMakeFiles/coding.dir/flags.make
-CMakeFiles/coding.dir/list/reverseList.cpp.obj: ../list/reverseList.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\coding\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/coding.dir/list/reverseList.cpp.obj"
-	F:\MinGW\MinGW-w64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coding.dir\list\reverseList.cpp.obj -c E:\coding\list\reverseList.cpp
+CMakeFiles/coding.dir/list/findKthToTail.cpp.obj: CMakeFiles/coding.dir/flags.make
+CMakeFiles/coding.dir/list/findKthToTail.cpp.obj: ../list/findKthToTail.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\coding\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/coding.dir/list/findKthToTail.cpp.obj"
+	F:\MinGW\MinGW-w64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coding.dir\list\findKthToTail.cpp.obj -c E:\coding\list\findKthToTail.cpp
 
-CMakeFiles/coding.dir/list/reverseList.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coding.dir/list/reverseList.cpp.i"
-	F:\MinGW\MinGW-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\coding\list\reverseList.cpp > CMakeFiles\coding.dir\list\reverseList.cpp.i
+CMakeFiles/coding.dir/list/findKthToTail.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coding.dir/list/findKthToTail.cpp.i"
+	F:\MinGW\MinGW-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\coding\list\findKthToTail.cpp > CMakeFiles\coding.dir\list\findKthToTail.cpp.i
 
-CMakeFiles/coding.dir/list/reverseList.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coding.dir/list/reverseList.cpp.s"
-	F:\MinGW\MinGW-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\coding\list\reverseList.cpp -o CMakeFiles\coding.dir\list\reverseList.cpp.s
+CMakeFiles/coding.dir/list/findKthToTail.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coding.dir/list/findKthToTail.cpp.s"
+	F:\MinGW\MinGW-w64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\coding\list\findKthToTail.cpp -o CMakeFiles\coding.dir\list\findKthToTail.cpp.s
 
 # Object files for target coding
 coding_OBJECTS = \
-"CMakeFiles/coding.dir/list/reverseList.cpp.obj"
+"CMakeFiles/coding.dir/list/findKthToTail.cpp.obj"
 
 # External object files for target coding
 coding_EXTERNAL_OBJECTS =
 
-coding.exe: CMakeFiles/coding.dir/list/reverseList.cpp.obj
+coding.exe: CMakeFiles/coding.dir/list/findKthToTail.cpp.obj
 coding.exe: CMakeFiles/coding.dir/build.make
 coding.exe: CMakeFiles/coding.dir/linklibs.rsp
 coding.exe: CMakeFiles/coding.dir/objects1.rsp

@@ -27,7 +27,7 @@ ListNode* ReverseList(ListNode* pHead){
 }
 
 int main(){
-    cout<<"Hello world"<<endl;
+    cout<<"Hello list"<<endl;
     ListNode *pHead=(ListNode*)malloc(sizeof(ListNode));
     pHead->next= nullptr;
     ListNode *tail;

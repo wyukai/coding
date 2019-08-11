@@ -122,32 +122,32 @@ coding/fast:
 	$(MAKE) -f CMakeFiles\coding.dir\build.make CMakeFiles/coding.dir/build
 .PHONY : coding/fast
 
-list/reverseList.obj: list/reverseList.cpp.obj
+list/findKthToTail.obj: list/findKthToTail.cpp.obj
 
-.PHONY : list/reverseList.obj
+.PHONY : list/findKthToTail.obj
 
 # target to build an object file
-list/reverseList.cpp.obj:
-	$(MAKE) -f CMakeFiles\coding.dir\build.make CMakeFiles/coding.dir/list/reverseList.cpp.obj
-.PHONY : list/reverseList.cpp.obj
+list/findKthToTail.cpp.obj:
+	$(MAKE) -f CMakeFiles\coding.dir\build.make CMakeFiles/coding.dir/list/findKthToTail.cpp.obj
+.PHONY : list/findKthToTail.cpp.obj
 
-list/reverseList.i: list/reverseList.cpp.i
+list/findKthToTail.i: list/findKthToTail.cpp.i
 
-.PHONY : list/reverseList.i
+.PHONY : list/findKthToTail.i
 
 # target to preprocess a source file
-list/reverseList.cpp.i:
-	$(MAKE) -f CMakeFiles\coding.dir\build.make CMakeFiles/coding.dir/list/reverseList.cpp.i
-.PHONY : list/reverseList.cpp.i
+list/findKthToTail.cpp.i:
+	$(MAKE) -f CMakeFiles\coding.dir\build.make CMakeFiles/coding.dir/list/findKthToTail.cpp.i
+.PHONY : list/findKthToTail.cpp.i
 
-list/reverseList.s: list/reverseList.cpp.s
+list/findKthToTail.s: list/findKthToTail.cpp.s
 
-.PHONY : list/reverseList.s
+.PHONY : list/findKthToTail.s
 
 # target to generate assembly for a file
-list/reverseList.cpp.s:
-	$(MAKE) -f CMakeFiles\coding.dir\build.make CMakeFiles/coding.dir/list/reverseList.cpp.s
-.PHONY : list/reverseList.cpp.s
+list/findKthToTail.cpp.s:
+	$(MAKE) -f CMakeFiles\coding.dir\build.make CMakeFiles/coding.dir/list/findKthToTail.cpp.s
+.PHONY : list/findKthToTail.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... coding
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... list/reverseList.obj
-	@echo ... list/reverseList.i
-	@echo ... list/reverseList.s
+	@echo ... list/findKthToTail.obj
+	@echo ... list/findKthToTail.i
+	@echo ... list/findKthToTail.s
 .PHONY : help
 
 
