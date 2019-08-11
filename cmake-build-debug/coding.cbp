@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/coding/main.cpp">
+		<Unit filename="E:/coding/list/reverseList.cpp">
 			<Option target="coding"/>
 		</Unit>
 		<Unit filename="E:/coding/CMakeLists.txt">

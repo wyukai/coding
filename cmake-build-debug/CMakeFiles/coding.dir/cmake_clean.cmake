@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/coding.dir/main.cpp.obj"
+  "CMakeFiles/coding.dir/list/reverseList.cpp.obj"
   "coding.pdb"
   "coding.exe"
   "coding.exe.manifest"

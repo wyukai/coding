@@ -122,32 +122,32 @@ coding/fast:
 	$(MAKE) -f CMakeFiles\coding.dir\build.make CMakeFiles/coding.dir/build
 .PHONY : coding/fast
 
-main.obj: main.cpp.obj
+list/reverseList.obj: list/reverseList.cpp.obj
 
-.PHONY : main.obj
+.PHONY : list/reverseList.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) -f CMakeFiles\coding.dir\build.make CMakeFiles/coding.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+list/reverseList.cpp.obj:
+	$(MAKE) -f CMakeFiles\coding.dir\build.make CMakeFiles/coding.dir/list/reverseList.cpp.obj
+.PHONY : list/reverseList.cpp.obj
 
-main.i: main.cpp.i
+list/reverseList.i: list/reverseList.cpp.i
 
-.PHONY : main.i
+.PHONY : list/reverseList.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles\coding.dir\build.make CMakeFiles/coding.dir/main.cpp.i
-.PHONY : main.cpp.i
+list/reverseList.cpp.i:
+	$(MAKE) -f CMakeFiles\coding.dir\build.make CMakeFiles/coding.dir/list/reverseList.cpp.i
+.PHONY : list/reverseList.cpp.i
 
-main.s: main.cpp.s
+list/reverseList.s: list/reverseList.cpp.s
 
-.PHONY : main.s
+.PHONY : list/reverseList.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles\coding.dir\build.make CMakeFiles/coding.dir/main.cpp.s
-.PHONY : main.cpp.s
+list/reverseList.cpp.s:
+	$(MAKE) -f CMakeFiles\coding.dir\build.make CMakeFiles/coding.dir/list/reverseList.cpp.s
+.PHONY : list/reverseList.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... coding
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... list/reverseList.obj
+	@echo ... list/reverseList.i
+	@echo ... list/reverseList.s
 .PHONY : help
 
 
