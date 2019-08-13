@@ -122,32 +122,32 @@ coding/fast:
 	$(MAKE) -f CMakeFiles\coding.dir\build.make CMakeFiles/coding.dir/build
 .PHONY : coding/fast
 
-list/findKthToTail.obj: list/findKthToTail.cpp.obj
+list/printListFromTail.obj: list/printListFromTail.cpp.obj
 
-.PHONY : list/findKthToTail.obj
+.PHONY : list/printListFromTail.obj
 
 # target to build an object file
-list/findKthToTail.cpp.obj:
-	$(MAKE) -f CMakeFiles\coding.dir\build.make CMakeFiles/coding.dir/list/findKthToTail.cpp.obj
-.PHONY : list/findKthToTail.cpp.obj
+list/printListFromTail.cpp.obj:
+	$(MAKE) -f CMakeFiles\coding.dir\build.make CMakeFiles/coding.dir/list/printListFromTail.cpp.obj
+.PHONY : list/printListFromTail.cpp.obj
 
-list/findKthToTail.i: list/findKthToTail.cpp.i
+list/printListFromTail.i: list/printListFromTail.cpp.i
 
-.PHONY : list/findKthToTail.i
+.PHONY : list/printListFromTail.i
 
 # target to preprocess a source file
-list/findKthToTail.cpp.i:
-	$(MAKE) -f CMakeFiles\coding.dir\build.make CMakeFiles/coding.dir/list/findKthToTail.cpp.i
-.PHONY : list/findKthToTail.cpp.i
+list/printListFromTail.cpp.i:
+	$(MAKE) -f CMakeFiles\coding.dir\build.make CMakeFiles/coding.dir/list/printListFromTail.cpp.i
+.PHONY : list/printListFromTail.cpp.i
 
-list/findKthToTail.s: list/findKthToTail.cpp.s
+list/printListFromTail.s: list/printListFromTail.cpp.s
 
-.PHONY : list/findKthToTail.s
+.PHONY : list/printListFromTail.s
 
 # target to generate assembly for a file
-list/findKthToTail.cpp.s:
-	$(MAKE) -f CMakeFiles\coding.dir\build.make CMakeFiles/coding.dir/list/findKthToTail.cpp.s
-.PHONY : list/findKthToTail.cpp.s
+list/printListFromTail.cpp.s:
+	$(MAKE) -f CMakeFiles\coding.dir\build.make CMakeFiles/coding.dir/list/printListFromTail.cpp.s
+.PHONY : list/printListFromTail.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... coding
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... list/findKthToTail.obj
-	@echo ... list/findKthToTail.i
-	@echo ... list/findKthToTail.s
+	@echo ... list/printListFromTail.obj
+	@echo ... list/printListFromTail.i
+	@echo ... list/printListFromTail.s
 .PHONY : help
 
 
