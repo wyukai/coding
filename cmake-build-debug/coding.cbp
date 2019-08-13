@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/coding/list/printListFromTail.cpp">
+		<Unit filename="E:/coding/list/loopList.cpp">
 			<Option target="coding"/>
 		</Unit>
 		<Unit filename="E:/coding/CMakeLists.txt">

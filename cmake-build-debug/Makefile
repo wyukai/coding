@@ -122,32 +122,32 @@ coding/fast:
 	$(MAKE) -f CMakeFiles\coding.dir\build.make CMakeFiles/coding.dir/build
 .PHONY : coding/fast
 
-list/printListFromTail.obj: list/printListFromTail.cpp.obj
+list/loopList.obj: list/loopList.cpp.obj
 
-.PHONY : list/printListFromTail.obj
+.PHONY : list/loopList.obj
 
 # target to build an object file
-list/printListFromTail.cpp.obj:
-	$(MAKE) -f CMakeFiles\coding.dir\build.make CMakeFiles/coding.dir/list/printListFromTail.cpp.obj
-.PHONY : list/printListFromTail.cpp.obj
+list/loopList.cpp.obj:
+	$(MAKE) -f CMakeFiles\coding.dir\build.make CMakeFiles/coding.dir/list/loopList.cpp.obj
+.PHONY : list/loopList.cpp.obj
 
-list/printListFromTail.i: list/printListFromTail.cpp.i
+list/loopList.i: list/loopList.cpp.i
 
-.PHONY : list/printListFromTail.i
+.PHONY : list/loopList.i
 
 # target to preprocess a source file
-list/printListFromTail.cpp.i:
-	$(MAKE) -f CMakeFiles\coding.dir\build.make CMakeFiles/coding.dir/list/printListFromTail.cpp.i
-.PHONY : list/printListFromTail.cpp.i
+list/loopList.cpp.i:
+	$(MAKE) -f CMakeFiles\coding.dir\build.make CMakeFiles/coding.dir/list/loopList.cpp.i
+.PHONY : list/loopList.cpp.i
 
-list/printListFromTail.s: list/printListFromTail.cpp.s
+list/loopList.s: list/loopList.cpp.s
 
-.PHONY : list/printListFromTail.s
+.PHONY : list/loopList.s
 
 # target to generate assembly for a file
-list/printListFromTail.cpp.s:
-	$(MAKE) -f CMakeFiles\coding.dir\build.make CMakeFiles/coding.dir/list/printListFromTail.cpp.s
-.PHONY : list/printListFromTail.cpp.s
+list/loopList.cpp.s:
+	$(MAKE) -f CMakeFiles\coding.dir\build.make CMakeFiles/coding.dir/list/loopList.cpp.s
+.PHONY : list/loopList.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... coding
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... list/printListFromTail.obj
-	@echo ... list/printListFromTail.i
-	@echo ... list/printListFromTail.s
+	@echo ... list/loopList.obj
+	@echo ... list/loopList.i
+	@echo ... list/loopList.s
 .PHONY : help
 
 
