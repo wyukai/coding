@@ -5,15 +5,6 @@
  * 输入一个复杂链表（每个节点中有节点值，以及两个指针，一个指向下一个节点，另一个特殊指针指向任意一个节点），
  * 返回结果为复制后复杂链表的head。（注意，输出结果中请不要返回参数中的节点引用，否则判题程序会直接返回空）
  */
-#include <iostream>
-#include <unordered_map>
-using namespace std;
-struct RandomListNode{
-    int label;
-    RandomListNode* next,*random;
-    RandomListNode(int x):label(x),next(nullptr),random(nullptr){}
-};
-
 /**
  * 复杂链表复制的思路
  * 1、在原有链表的基础上，在每一个结点之后，拷贝一个与这个结点完全相似的结点从而链接到这个结点之后，形成一个完全一致的链表。
@@ -23,6 +14,16 @@ struct RandomListNode{
  * 因此需要拆解这个链表，从而使得形成两个完全相同的链表（此处注意找新链表的头结点与标记已经拆解到哪个链表上）
  * @return
  */
+#include <iostream>
+#include <unordered_map>
+using namespace std;
+struct RandomListNode{
+    int label;
+    RandomListNode* next,*random;
+    RandomListNode(int x):label(x),next(nullptr),random(nullptr){}
+};
+
+
 
 RandomListNode *clone(RandomListNode* head){
     if(head== nullptr){
