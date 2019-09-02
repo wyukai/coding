@@ -19,5 +19,6 @@ some coding issues
    + 数组中最小的K个数
    + 从数组中找出N个数，满足偶数在前奇数在后，偶数间从大到小，奇数间从大到小
    + 丑数
-   + Leetcode179 Largest Number
+   + Leetcode179 Largest Number  把数组排成最大的数
+   + 归并排序
 
