@@ -22,4 +22,7 @@ some coding issues
    + Leetcode179 Largest Number  把数组排成最大的数
    + 归并排序
    + 快速排序
+   + 数组中的逆序对
+   + 数组中数字K出现的次数
+
 

@@ -30,22 +30,27 @@ ListNode * findEntry(ListNode*head){
         return  0;
     }
     ListNode* fast=head,*slow=head;
-    while (fast&&slow){
+    while (fast&&fast->next){
         fast=fast->next->next;
         slow=slow->next;
         if(fast==slow){
             break;
         }
     }
+    if(!fast||!fast->next){
+        return nullptr;
+    }
     fast=head;
-    while (fast&&slow){
+    while (fast!=slow){
         fast=fast->next;
         slow=slow->next;
         if(fast==slow){
             break;
         }
     }
-    return fast;
+    return slow;
+
+
 }
 
 //计算环中包含的节点数 从第一次相遇开始记录走过的节点数，到第二次相遇时停止
