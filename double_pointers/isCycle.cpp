@@ -49,7 +49,43 @@ ListNode *findEntry(ListNode *head){
             break;
         }
     }
-    if(!fast || !fast->next)
+    if(!fast || !fast->next){
+        return nullptr;
+    }
+    fast = head;
+    while(fast != slow){
+        fast = fast->next;
+        slow = slow->next;
+        if(fast == slow){
+            break;
+        }
+    }
+    return slow;
+}
 
+
+// 计算环中包含的节点数，从第一次相遇开始记录走过的节点数，到第二次相遇时停止。
+int numOfLoop(ListNode *head){
+    if(head == nullptr || head->next == nullptr){
+        return 0;
+    }
+    ListNode *slow = head, *fast = head;
+    int length = 0;
+    bool first = false, second = false;
+    while(slow && fast && fast->next){
+        fast = fast->next->next;
+        slow = slow->next;
+        if(fast == slow){
+            if(first){
+                second = true;
+                break;
+            }
+            first = true;
+        }
+        if(first){
+            length ++;
+        }
+    }
+    return length;
 }
 

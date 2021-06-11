@@ -16,6 +16,7 @@
 #include <iostream>
 #include <vector>
 #include <map>
+#include <algorithm>
 
 using namespace std;
 
@@ -34,6 +35,24 @@ vector<int> twoSum(vector<int>& v, const int target){
         }
     }
     return vector<int>{start + 1, last + 1};
+}
+
+// 未排序数组中找出和为某数的两个数的下标
+// 使用map，循环遍历数组，每次访问一个元素，将值与其下标存入map中，
+vector<int> twoSum1(vector<int>& v, const int target){
+    vector<int> result;
+    map<int, int> temp;
+    for (int i = 0; i < v.size(); ++i) {
+        if(temp.count(target - v[i]) != 0){
+            result.push_back(i);
+            result.push_back(temp[target - v[i]]);
+            return result;
+        }
+        else {
+            temp[v[i]] = i;
+        }
+    }
+    return {};
 }
 
 int main(){
