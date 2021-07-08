@@ -1,3 +1,0 @@
-"F:\CLion 2019.2\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\coding.dir/objects.a
-F:\MinGW\MinGW-w64\mingw64\bin\ar.exe cr CMakeFiles\coding.dir/objects.a @CMakeFiles\coding.dir\objects1.rsp
-F:\MinGW\MinGW-w64\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\coding.dir/objects.a -Wl,--no-whole-archive  -o coding.exe -Wl,--out-implib,libcoding.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\coding.dir\linklibs.rsp

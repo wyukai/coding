@@ -1,0 +1,3 @@
+D:/person/code/coding/cmake-build-debug-mingw/CMakeFiles/coding.dir
+D:/person/code/coding/cmake-build-debug-mingw/CMakeFiles/edit_cache.dir
+D:/person/code/coding/cmake-build-debug-mingw/CMakeFiles/rebuild_cache.dir

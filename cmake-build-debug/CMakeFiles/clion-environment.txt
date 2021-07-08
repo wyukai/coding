@@ -1,4 +1,4 @@
-ToolSet: w64 6.0 (local)@F:\MinGW\MinGW-w64\mingw64
+ToolSet: 15.0 (local)@C:\Program Files (x86)\Microsoft Visual Studio\2017\Community
 Options: 
 
 Options:
