@@ -52,6 +52,7 @@ void dfs(vector<int>& nums, vector<int> visited){
             visited.pop_back();
         }
     }
+    return;
 }
 
 vector<vector<int>> permute(vector<int> nums){
