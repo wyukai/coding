@@ -17,7 +17,7 @@ void dfs(queue<pair<int,int>>& points,vector<vector<int>>& grid, int m, int n, i
 //定义搜索方向
 vector<int> directions = {-1,0,1,0,-1};
 
-int shortBrige(vector<vector<int>>& grid){
+int shortestBridge(vector<vector<int>>& grid){
     int row = grid.size(), col = grid[0].size();
     //定义第一个岛屿的所有点为BFS的第一层级
     queue<pair<int,int>> points;
@@ -78,6 +78,8 @@ void dfs(queue<pair<int,int>>& points,vector<vector<int>>& grid, int m, int n, i
     }
 }
 
+
+
 int main(){
 //    vector<vector<int>> grid = {{1,1,1,1,1},
 //                                {1,0,0,0,1},
@@ -85,6 +87,6 @@ int main(){
 //                                {1,0,0,0,1},
 //                                {1,1,1,1,1}};
     vector<vector<int>> grid = {{0,1,0},{0,0,0},{0,0,1}};
-    int min_distance = shortBrige(grid);
+    int min_distance = shortestBridge(grid);
     cout << min_distance << endl;
 }
