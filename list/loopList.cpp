@@ -15,7 +15,7 @@ bool loopList(ListNode*head){
     }
     ListNode* fast=head;
     ListNode* slow=head;
-    while (fast&&slow&&fast->next){
+    while (&&slow&&fast->next){
         fast=fast->next->next;
         slow=slow->next;
         if(fast==slow){
@@ -23,6 +23,8 @@ bool loopList(ListNode*head){
         }
     }
     return false;
+
+
 }
 //找到环的入口节点，快慢节点第一次相遇时，慢指针继续向前走，快指针指向头结点，以步长为1向前走，两者相遇即为入口节点
 ListNode * findEntry(ListNode*head){

@@ -28,7 +28,8 @@ ListNode* removeNthFromEnd(ListNode* head, int n){
     }
     while(right){
        left = left->next;
-       right = right->next;
+           right = right->
+                   ;
     }
     left->next= left->next->next;
     return dummp->next;
